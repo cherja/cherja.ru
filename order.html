@@ -1,0 +1,138 @@
+<html lang="ru"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Тоже самое, только на Bootstrap">
+    <meta name="author" content="JonKofee">
+
+    <title>Портфолио</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Чернявский Веталь</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Портфолио</a></li>
+            <li><a href="https://vk.me/chirik91">VK</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Еще <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://www.instagram.com/cherjainsta/">Инста</a></li>
+                <li><a href="#">Одноклассники</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Ищи меня в клубе</li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="order.html">Заказать сайт</a></li>
+            <li><a href="signin.html">Войти</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="page-header">
+        <h1>Заказ</h1>
+      </div>
+      <div class="alert alert-success" style="display:none">Заебца</div>
+      <form>
+        <fieldset class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">E-mail</label>
+          <div class="col-sm-10">
+            <input type="email" autofocus="" class="form-control" id="inputEmail3">
+          </div>
+        </fieldset>
+        <fieldset class="form-group row">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Парольский</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Сюды">
+          </div>
+        </fieldset>
+        <fieldset class="form-group row">
+          <label class="col-form-legend col-sm-2">Пол</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="men" checked>
+                Мужик
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="women">
+                Баба
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form-group row">
+          <label class="col-sm-2">Дополнительные возможности</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Адаптивность
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Установка на хостинг
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">  Поддержка
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Установка админ панели
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form-group row">
+          <label class="col-sm-2"> Приложите эскиз </label>
+          <div class="col-sm-10">
+              <input type="file">
+          </div>
+        </fieldset>
+        <fieldset class="form-group row">
+          <label class="col-sm-2"> Комментарий </label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+        </fieldset>
+        <div class="form-group row">
+          <div class="offset-sm-2 col-sm-10">
+            <a onClick="$('.alert').show()" class="btn btn-primary">Отправить</a>
+          </div>
+        </div>
+      </form>
+  </form>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body></html>
